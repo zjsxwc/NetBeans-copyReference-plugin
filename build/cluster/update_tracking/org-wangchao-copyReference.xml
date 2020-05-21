@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.wangchao.copyReference">
-    <module_version install_time="1590030461600" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1590031863153" last="true" origin="installer" specification_version="1.0">
         <file crc="410728583" name="config/Modules/org-wangchao-copyReference.xml"/>
         <file crc="1307803964" name="modules/ext/converter-gson-2.0.0.jar"/>
         <file crc="847603952" name="modules/ext/converter-gson-2.1.0.jar"/>
         <file crc="2712220367" name="modules/ext/gson-2.0.jar"/>
         <file crc="2857669946" name="modules/ext/gson-2.8.6.jar"/>
-        <file crc="1010541927" name="modules/org-wangchao-copyReference.jar"/>
+        <file crc="168007024" name="modules/org-wangchao-copyReference.jar"/>
     </module_version>
 </module>

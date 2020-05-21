@@ -10,4 +10,75 @@
             </folder>
         </folder>
     </folder>
+ 
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="xml">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="plain">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-php5">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-yaml">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="html">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-twig">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="">
+                <folder name="Popup">
+                    <file name="org-wangchao-copyReference-CopyReferenceAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
 </filesystem>

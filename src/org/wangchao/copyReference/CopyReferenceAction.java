@@ -43,15 +43,18 @@ public class CopyReferenceAction extends CallableSystemAction {
 
         Document doc = editor.getDocument();
         FileObject f = getFileObject(doc);
-        String path = f.getPath();
-
+        String path = "";
         int linenumber = 0;
         try {
+            if (f != null) {
+                path = f.getPath();
+            }
             String t = editor.getText(0, editor.getCaretPosition());
             String thinT = t.replaceAll("\n", "");
             linenumber = t.length() - thinT.length() + 1;
         } catch (BadLocationException ex) {
             linenumber = 0;
+            path = "";
         }
 
         Clipboard clipboard = Lookup.getDefault().lookup(ExClipboard.class);

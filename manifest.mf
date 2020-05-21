@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.wangchao.copyReference
+OpenIDE-Module-Localizing-Bundle: org/wangchao/copyReference/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Layer: org/wangchao/copyReference/layer.xml

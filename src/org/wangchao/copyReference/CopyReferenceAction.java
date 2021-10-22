@@ -24,6 +24,10 @@ import org.openide.util.datatransfer.ExClipboard;
  */
 public class CopyReferenceAction extends CallableSystemAction {
 
+    public int position = 300;
+    public CopyReferenceAction() {
+        super();
+    }
 
     public FileObject getFileObject(Document doc) {
         Object o = doc.getProperty(Document.StreamDescriptionProperty);
@@ -40,9 +44,18 @@ public class CopyReferenceAction extends CallableSystemAction {
     public void performAction() {
 
         JTextComponent editor = EditorRegistry.lastFocusedComponent();
+        if (editor == null) {
+            return;
+        }
 
         Document doc = editor.getDocument();
+        if (doc == null) {
+            return;
+        }
         FileObject f = getFileObject(doc);
+        if (f == null) {
+            return;
+        }
         String path = "";
         int linenumber = 0;
         try {
@@ -69,7 +82,7 @@ public class CopyReferenceAction extends CallableSystemAction {
 
     @Override
     public String getName() {
-        return "Copy reference";
+        return "Copy Reference";
     }
 
     @Override
@@ -77,4 +90,8 @@ public class CopyReferenceAction extends CallableSystemAction {
         return new HelpCtx("copy file reference");
     }
 
+    @Override
+    protected boolean asynchronous() {
+       return false;
+    }
 }
